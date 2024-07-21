@@ -15,10 +15,10 @@ public class Main {
 
     public static void installOsSystem(int clientOS, int clientDeviceYear) {
 
-        String msg = clientDeviceYear <= 2015 ? "облегченную " : ""; //Тернарный оператор, немного сокращает объе кода
+        String msg = clientDeviceYear <= 2015 ? "облегченную " : ""; //Тернарный оператор, немного сокращает объем кода
 
         if (clientOS == 0 || clientOS == 1) {
-            String operationSystem = clientOS == 0 ? "iOS" : "Android"; //Тернарный оператор, немного сокращает объе кода
+            String operationSystem = clientOS == 0 ? "iOS" : "Android"; //Тернарный оператор, немного сокращает объем кода
             System.out.println("Установите " + msg + "версию приложения для " + operationSystem + " по ссылке.");
         } else {
             System.out.println("Неизвестная ошибка");
