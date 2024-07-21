@@ -66,5 +66,6 @@ public class Main {
         int deliveryDistance = 103;
         countDays(deliveryDistance);
 
+        read.close();
     }
 }
